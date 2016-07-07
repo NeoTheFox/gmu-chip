@@ -15,7 +15,7 @@
 #
 Q?=@
 STATIC?=0
-TARGET?=unknown
+TARGET?=chip
 include $(TARGET).mk
 
 PREFIX?=/usr/local

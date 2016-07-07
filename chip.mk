@@ -37,4 +37,4 @@ MIKMOD_CFLAGS=$(shell libmikmod-config --cflags)
 COPTS?=-O0 -fno-short-enums -g
 CFLAGS=$(SDL_CFLAGS) -fsigned-char -D_REENTRANT -DUSE_MEMORY_H
 LFLAGS=-I/usr/local/include -L/usr/local/lib -Wl,-export-dynamic
-DISTFILES=$(COMMON_DISTBIN_FILES) gmuinput.chip.conf gmu.sh
+DISTFILES=$(COMMON_DISTBIN_FILES) gmuinput.chip.conf gmu-chip.sh

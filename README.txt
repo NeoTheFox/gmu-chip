@@ -83,7 +83,11 @@ If you have been upgrading from an older Gmu version, you might need
 to remove the /root/.config/gmu directory before starting Gmu.
 
 ==> Pocket C.H.I.P.
-TBD
+
+Install .deb, and run "gmu".
+If you are building from source:
+TARGET=chip make
+./pack-chip.sh
 
 2.1 Supported file formats
 --------------------------
